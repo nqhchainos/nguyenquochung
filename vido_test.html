@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <!-- Tiêu đề trang web ở đây -->
+     <title>Trang web của tôi</title>
+</head>
+
+<body>
+     <!-- Nội dung chính -->
+     <h1>Ví dụ về nhóm thẻ form</h1>
+     <br>
+     <h4>Nhập dữ liệu bạn đọc thư viện</h4>
+     <form method="POST">
+          <input type="text" placeholder="Tên bạn đọc" value="" />
+          <input type="email" placeholder="Email của bạn" />
+          <input type="password" placeholder="Mật khẩu" />
+          <!-- Mục giới tính -->
+          <div>
+               <br>
+               <label>Giới tính:</label>
+               <input type="radio" value="Nam" name="option" />Nam
+               <input type="radio" value="Nữ" name="option" />Nữ
+          </div>
+          <br />
+          <!-- Mục loại sách -->
+          <div>
+               Lựa chọn loại sách:
+               <input type="checkbox" value="Tiểu thuyết" name="option">Tiểu thuyết
+               <input type="checkbox" value="Truyện tranh" name="option">Truyện tranh
+          </div>
+          <br />
+          <!-- Nhập thời gian đọc sách -->
+          <div>
+               Ngày mượn sách
+               <select>
+                    <option>Thứ 2</option>
+                    <option>Thứ 4</option>
+                    <option>Thứ 5</option>
+               </select>
+          </div>
+          <!-- Confirm -->
+          <input type="submit" value="Gửi"/>
+     </form>
+     <br />
+     <a href="#">Facebook cá nhân</a>
+</body>
+
+</html>
